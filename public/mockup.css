@@ -1,0 +1,38 @@
+.entire {
+  font-family: 'Roboto', sans-serif;
+  background-color: #232324;
+  color: #ffffff;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.masthead {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.player {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.about {
+  border-bottom: 1px solid #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
