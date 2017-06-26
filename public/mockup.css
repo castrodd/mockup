@@ -1,22 +1,76 @@
-.entire {
+* {
+  background-color: #232324;
+}
+
+body {
   font-family: 'Roboto', sans-serif;
   background-color: #232324;
   color: #ffffff;
   height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   border: 0;
+  top: 0;
+  left: 0;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .masthead {
+  padding-top: 1.5em;
+  margin-left: 150px;
+  margin-right: auto;
   display: flex;
   list-style-type: none;
-  justify-content: center;
+  align-content:space-between;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1100px;
+}
+
+.fa-bell-o {
+  padding: 1em;
+}
+
+.searchButton {
+  padding: 1em;
+}
+
+input[type="file"] {
+    display: none;
 }
 
 .player {
   display: flex;
   justify-content: center;
+}
+
+.enter {
+  display: flex;
+  justify-content: flex-start;
+}
+
+textarea {
+  color: white;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  width: 450px;
+  background-color: #2e2e2f;
+  color: white;
+  padding-left: 1em;
+  margin-bottom: 3em;
+}
+
+.custom-file-upload {
+  padding: 1em;
 }
 
 .title {
@@ -31,8 +85,4 @@
 
 .about {
   border-bottom: 1px solid #ffffff;
-}
-
-ul {
-  list-style-type: none;
 }

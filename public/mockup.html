@@ -1,24 +1,32 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
   <head>
     <meta charset="utf-8">
     <title>YouTube Mockup</title>
-    <link rel="stylesheet" href="/mockup.css">
+    <link rel="stylesheet" href="mockup.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://use.fontawesome.com/d992dc7455.js"></script>
   </head>
 
   <body>
    <div class="entire">
-
     <div class="masthead">
-        <img src="images/navbar.png" alt="masthead">
+        <div><h2>YouTube</h3></div>
+        <div><i class="fa fa-bell-o" aria-hidden="true"></i></div>
+        <div class="search">
+          <input type="text" class="searchTerm" placeholder="Search">
+          <button type="submit" class="searchButton">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      <div><img src="images/kanye.png" alt="kanye west"></div>
+      <div><label for="file-upload" class="custom-file-upload">Upload</label><input id="file-upload" type="file"/></div>
     </div>
 
     <div class="page">
       <div class="player">
-        <img src="images/video.png" alt="skateboarder">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8g4nwACzaKo" frameborder="0" allowfullscreen></iframe>
       </div>
 
       <div class="main">
@@ -42,6 +50,10 @@
             <div class="top">
               <h3>Comments</h3>
             </div>
+            <div class="enter">
+              <div><img src="images/kanye.png" alt="kanye west"></div>
+              <div><textarea name="textarea" rows="3" cols="70">Share your thoughts</textarea></div>
+            </div>
             <div class="list">
               <ul>
                 <li> <img src = "images/comment.png" alt="comment"></li>
@@ -51,6 +63,7 @@
                 <li> <img src = "images/comment.png" alt="comment"></li>
                 <li> <img src = "images/comment.png" alt="comment"></li>
               </ul>
+              <div class="more"><span>SHOW MORE</span><div>
             </div>
           </div>
         </section>
@@ -64,12 +77,12 @@
           </div>
           <div class="videos">
             <ul>
-              <li><img src="images/recommended.png" alt="recommended video"></li>
-              <li><img src="images/recommended.png" alt="recommended video"></li>
-              <li><img src="images/recommended.png" alt="recommended video"></li>
-              <li><img src="images/recommended.png" alt="recommended video"></li>
-              <li><img src="images/recommended.png" alt="recommended video"></li>
-              <li><img src="images/recommended.png" alt="recommended video"></li>
+              <li><a href="https://www.youtube.com/watch?v=jrU2sOOFlDg"><img src="images/recommended.png" alt="recommended video"></a></li>
+              <li><a href="https://www.youtube.com/watch?v=jrU2sOOFlDg"><img src="images/recommended.png" alt="recommended video"></a></li>
+              <li><a href="https://www.youtube.com/watch?v=jrU2sOOFlDg"><img src="images/recommended.png" alt="recommended video"></a></li>
+              <li><a href="https://www.youtube.com/watch?v=jrU2sOOFlDg"><img src="images/recommended.png" alt="recommended video"></a></li>
+              <li><a href="https://www.youtube.com/watch?v=jrU2sOOFlDg"><img src="images/recommended.png" alt="recommended video"></a></li>
+              <li><a href="https://www.youtube.com/watch?v=jrU2sOOFlDg"><img src="images/recommended.png" alt="recommended video"></a></li>
             </ul>
           </div>
         </aside>
