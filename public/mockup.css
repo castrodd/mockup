@@ -48,6 +48,10 @@ input[type="file"] {
   justify-content: center;
 }
 
+iframe {
+  border: 0;
+}
+
 .enter {
   display: flex;
   justify-content: flex-start;
