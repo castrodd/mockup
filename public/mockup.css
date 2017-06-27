@@ -189,7 +189,7 @@ textarea {
   align-content: center;
 }
 
-#thumbs {
+.thumbs {
   color: #676767;
   padding-right: 3em;
   padding-left: 3em;
@@ -216,11 +216,11 @@ textarea {
   padding-bottom: 1.5em;
 }
 
-#line {
+.line {
   padding-left: 1em;
 }
 
-#vid {
+.vid {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
